@@ -5,6 +5,9 @@ public class Product {
     public double price;
     public int quantity;
 
+    //Construtor padrão
+    public Product(){}
+
     public Product(String name, double price, int quantity){
         this.name = name;
         this.price = price;
