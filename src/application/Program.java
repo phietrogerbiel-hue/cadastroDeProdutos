@@ -18,6 +18,7 @@ public class Program {
         double price = sc.nextDouble();
         System.out.print("Quantity in stock: ");
         int quantity = sc.nextInt();
+        //chamado do novo método
         Product product = new Product(name, price, quantity);
 
         System.out.println("Product data: " + product);
